@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { db } from './db/connection';
-import { CreateProductDto } from './models/create-product.dto';
+import { CreateProductDto } from './dto/create-product.dto';
 
 @Injectable()
 export class AppService {

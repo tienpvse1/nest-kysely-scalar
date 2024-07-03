@@ -7,8 +7,8 @@ import {
   Post,
 } from '@nestjs/common';
 import { AppService } from './app.service';
-import { CreateCategoryDto } from './models/create-category.dto';
-import { CreateProductDto } from './models/create-product.dto';
+import { CreateCategoryDto } from './dto/create-category.dto';
+import { CreateProductDto } from './dto/create-product.dto';
 
 @Controller()
 export class AppController {
